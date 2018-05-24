@@ -1,0 +1,44 @@
+body {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding-top: calc(50vh - 50px);
+}
+
+.round {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin: 2px;
+  display: inline-block;
+  margin-top: -20px;
+}
+
+.r1 {
+  background-color: #697B9D;
+  animation: bounce 0.5s cubic-bezier(0.84, 0.35, 0.58, 0.98) 0s infinite;
+}
+
+.r2 {
+  background-color: #36A8AA;
+  animation: bounce 0.5s cubic-bezier(0.84, 0.35, 0.58, 0.98) 0.1s infinite;
+}
+
+.r3 {
+  background-color: #6ECB87;
+  animation: bounce 0.5s cubic-bezier(0.84, 0.35, 0.58, 0.98) 0.2s infinite;
+}
+
+.r4 {
+  background-color: #E0DE61;
+  animation: bounce 0.5s cubic-bezier(0.84, 0.35, 0.58, 0.98) 0.3s infinite;
+}
+
+@keyFrames bounce {
+  0%, 100% {
+    padding: 0;
+  }
+  50% {
+    padding-bottom: 20px;
+  }
+}
+
